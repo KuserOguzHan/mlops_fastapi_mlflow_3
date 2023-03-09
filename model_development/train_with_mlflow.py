@@ -49,7 +49,7 @@ def eval_metrics(actual, pred):
     return rmse, mae, r2
 
 # Error_1: If you encounter "experiment name" error, you have to alter "experiment_name"
-experiment_name = "FastAPI with MLflow_1"
+experiment_name = "FastAPI with MLflow_3"
 mlflow.set_experiment(experiment_name)
 
 #If the model is successful, it will be enrolled the following name
