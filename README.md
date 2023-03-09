@@ -24,9 +24,9 @@ pip install -r requirements.txt
 
 - Check the MLFlow
 
-### 4. Deploymet the ML Model
+### 4. Deployment of the ML Model
 
-- If the model is succeful, learn the model number
+- If the model is successful, learn the model number
 
 - Open "main.py", learn, decide and get model from mlflow model registry
 
