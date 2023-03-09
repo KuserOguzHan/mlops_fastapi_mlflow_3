@@ -48,10 +48,11 @@ def eval_metrics(actual, pred):
     r2 = r2_score(actual, pred)
     return rmse, mae, r2
 
-
-experiment_name = "FastAPI with MLfloww"
+# Error_1: If you encounter "experiment name" error, you have to alter "experiment_name"
+experiment_name = "FastAPI with MLflow_1"
 mlflow.set_experiment(experiment_name)
 
+#If the model is successful, it will be enrolled the following name
 registered_model_name="hepsiburadaRFModel"
 
 
