@@ -1,5 +1,6 @@
 - Thise project was deployed with FastApi and MLFLOW.
-- Önceki mprojelerde modelleri localden okuyorduk bu projede MLFLOW dan okuyacağız.
+
+- In previous ML projects, models were read locally, in this project, they will be read from MLFLOW.
 
 ### 1. Pip İnstall Requirements
 
@@ -7,7 +8,7 @@
 pip install -r requirements.txt
 ```
 
-### 2. Replace nge some code
+### 2. Replace some code
 
 - You may replace some code because you can read some errors due to the name of the experiment being enrolled in the volume previously.
 
