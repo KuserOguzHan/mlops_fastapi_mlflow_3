@@ -18,20 +18,20 @@ pip install -r requirements.txt
 - Error_1: If you encounter "experiment name" error, you have to alter "experiment_name"
 
 
-### 3.Run the ML model 
+### 3. Run the ML model 
 
 - Run train_with_mlflow.py
 
 - Check the MLFlow
 
-### 4.Deploymet the ML Model
+### 4. Deploymet the ML Model
 
 - If the model is succeful, learn the model number
 
 - Open "main.py", learn, decide and get model from mlflow model registry
 
 
-### 5.Run Uvicorn
+### 5. Run Uvicorn
 
 ```
 uvicorn main:app --host 0.0.0.0 --port 8002
